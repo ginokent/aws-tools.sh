@@ -1,5 +1,5 @@
 #!/bin/sh
-# https://github.com/ginokent/aws-tools.sh
+# LISENCE: https://github.com/ginokent/aws-tools.sh/blob/HEAD/LICENSE
 
 aws_account_id=${AWS_ACCOUNT_ID-$(aws --output text sts get-caller-identity --query Account)}
 bucket_name=terraform-backend-${aws_account_id:?}-${AWS_REGION:?}

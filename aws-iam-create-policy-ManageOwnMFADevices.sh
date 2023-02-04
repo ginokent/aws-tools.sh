@@ -1,5 +1,5 @@
 #!/bin/sh
-# https://github.com/ginokent/aws-tools.sh
+# LISENCE: https://github.com/ginokent/aws-tools.sh/blob/HEAD/LICENSE
 
 # NOTE: ref. IAM: Allows IAM users to self-manage an MFA device https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_iam_mfa-selfmanage.html
 # NOTE: ref. Permitting IAM users to change their own passwords https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_enable-user-change.html
